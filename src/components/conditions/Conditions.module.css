@@ -1,0 +1,193 @@
+.wrapper {
+  position: relative;
+  padding: 8px;
+}
+
+.btn {
+  border: solid 1px #1b4de4;
+  color: #1b4de4;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 1.4em;
+  font-weight: bold;
+  position: absolute;
+  top: 20px;
+  right: 6px;
+}
+
+.date {
+  margin-top: 8px;
+}
+
+.innerWrapper {
+  padding: 8px;
+  height: 70px;
+  position: relative;
+}
+
+.temp {
+  position: absolute;
+  top: 45px;
+  font-weight: bolder;
+  color: black;
+  font-size: 25px;
+}
+
+.img {
+  position: absolute;
+  left: 6%;
+  top: 0px;
+}
+
+.rain {
+  position: absolute;
+  right: 7%;
+  top: 25px;
+  color: black;
+  font-weight: bold;
+}
+
+.rainIcon,
+.windIcon {
+  color: #1b4de4;
+  font-size: 18px;
+}
+
+.wind {
+  position: absolute;
+  right: 7%;
+  top: 60px;
+  color: black;
+  font-weight: bold;
+}
+
+.description {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  /* border: solid 1px violet; */
+}
+
+.descriptionBox {
+  border: solid 1px lightgray;
+  border-radius: 0.3rem;
+  padding: 8px;
+  width: 70%;
+  margin: auto;
+}
+
+.humidityUVBox {
+  /* border: solid 1px lightgray; */
+  padding: 8px;
+  display: flex;
+}
+
+.humidity,
+.uv {
+  /* border: solid 1px red; */
+  text-align: center;
+  width: 50%;
+}
+
+.sunriseSunsetBox {
+  /* border: solid 1px orange; */
+  padding: 8px;
+  display: flex;
+}
+
+.sunrise,
+.sunset {
+  /* border: solid 1px blue; */
+  width: 50%;
+  text-align: center;
+}
+
+.weatherIcon {
+  color: #1b4de4;
+}
+
+.hidden {
+  display: none;
+}
+
+.bold {
+  color: black;
+  font-weight: bold;
+}
+
+/* //////////////////////collapsible view ///////////////////// */
+
+.collapsibleWrapper {
+  position: relative;
+  display: flex;
+  /* border: solid 1px red; */
+  height: 40px;
+}
+
+.collapsibleBtn {
+  border: none;
+  color: #1b4de4;
+  background-color: transparent;
+  cursor: pointer;
+  font-size: 1.4em;
+  font-weight: bold;
+  position: absolute;
+  top: 10px;
+  right: 6px;
+}
+
+.collapsibleDate {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  /* border: solid 1px blue; */
+  width: 12%;
+}
+.collapsibleData {
+  padding: 5px;
+}
+
+.collapsibleTemp {
+  display: flex;
+  align-items: center;
+  /* border: solid 1px orange; */
+  width: 12%;
+  text-align: center;
+}
+.collapsibleTempToday {
+  font-weight: bolder;
+  font-size: 18px;
+  color: black;
+}
+
+.collapsibleDescriptionBox {
+  /* border: solid 1px black; */
+  width: 50%;
+  position: relative;
+}
+
+.collapsibleDescription {
+  position: absolute;
+  left: 50px;
+  top: 10px;
+}
+.collapsibleImg {
+  /* border: solid 1px blue; */
+  position: absolute;
+  top: -10px;
+}
+
+.collapsibleRainWindData {
+  display: flex;
+  align-items: center;
+  /* border: solid 1px green; */
+  width: 30%;
+}
+.collapsibleRainData {
+  /* border: solid 1px green; */
+  width: 60px;
+}
+
+.collapsibleRainIcon,
+.collapsibleWindIcon {
+  color: #1b4de4;
+}
